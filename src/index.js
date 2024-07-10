@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Define routes
 app.get('/', (req, res) => {
-  res.send('Hello World From Bhatee!');
+  res.send('Hello World Frm Bhatee!');
 });
 
 app.get('/env', (req, res) => {
